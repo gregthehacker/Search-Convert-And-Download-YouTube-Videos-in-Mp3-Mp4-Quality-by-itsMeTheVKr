@@ -1,4 +1,4 @@
-var api = 'AIzaSyB_rB142zrVbdrvvAhJUo3mo3DMctJFpnw';
+var api = 'Your YouTube API key';
 
 
 $(function() {  
@@ -184,7 +184,7 @@ function print(item, i) {
                         '<div class="mat">' +
                             '<h4><a id="videoplay" href="https://youtube.com/embed/' + id + '?rel=0">' + title + '</a></h4>' +
                             '<b>  <a target="blank" style="color : #e44c65;" href="https://youtube.com/channel/' + channelid + '"><span style="color : #e44c65;">' + channelname + '</span> </a><br><span style="color:green" id="' + view + '"></span><br><span style="color : #e44c65;" id="' + dur + '"></span> </b>' +
-                            '<p style="color:white;">' + description + '</p>' + '<br>'+'<iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="http://downloadbtn.6te.net/btn/d/?u=https://www.youtube.com/watch?v=' + id + '&f=mp3"></iframe>' +'<br>'+'<iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="http://downloadbtn.6te.net/btn/d/?u=https://www.youtube.com/watch?v=' + id + '&f=720"></iframe>'  +'<br>'+ '<a href="http://downloadbtn.6te.net/download/?url=https://www.youtube.com/watch?v=' + id + '"><button class=" btn btn-primary"> More Download Format </button></a> ' +
+                            '<p style="color:white;">' + description + '</p>' + '<br>'+'<iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="https://dlmyvid.000webhostapp.com/apis/d/?u=https://www.youtube.com/watch?v=' + id + '&f=mp3"></iframe>' +'<br>'+'<iframe style="width:100%;height:70px;border:0;overflow:hidden;" scrolling="no" src="https://dlmyvid.000webhostapp.com/apis/d/?u=https://www.youtube.com/watch?v=' + id + '&f=720"></iframe>">'  +'<br>'+ '<a href="https://dlmyvid.000webhostapp.com/@download/?url=https://www.youtube.com/watch?v=' + id + '"><button class=" btn btn-primary"> More Download Format </button></a> ' +
                         '</div>' + 
                     '</li><br>'
 
